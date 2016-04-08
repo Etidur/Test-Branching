@@ -23,9 +23,9 @@ echo.
 set /p myVar= Enter a short sentence : 
 
 echo.
-echo  All "a" will be replaced with "b"
+echo  All "z" will be replaced with "b"
 echo  %myVar%
-set myVar=%myVar:a=b%
+set myVar=%myVar:z=b%
 echo  %myVar%
 
 echo.
